@@ -6,7 +6,7 @@ PKG=$(awk -F '=' '/pkgname=/{ print $2 }' PKGBUILD)
 
 # Get latest version
 VER=$(
-	npm view @babel/eslint-parser dist-tags.latest
+	curl -sSf 'https://registry.npmjs.org/@babel/eslint-parser/latest' | jq -r '.version'
 )
 [[ -n $VER ]] || exit 1
 
