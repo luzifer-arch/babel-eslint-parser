@@ -1,14 +1,14 @@
 pkgbase = babel-eslint-plugin
 	pkgdesc = @babel/eslint-parser allows you to lint ALL valid Babel code with the fantastic ESLint
-	pkgver = 7.22.10
+	pkgver = 7.22.11
 	pkgrel = 1
 	url = https://github.com/babel/babel
 	arch = any
 	license = MIT
 	makedepends = npm
 	depends = eslint
-	noextract = eslint-parser-7.22.10.tgz
-	source = https://registry.npmjs.org/@babel/eslint-parser/-/eslint-parser-7.22.10.tgz
-	sha256sums = f3624dcafe577897b255cb272844d349f9f79bccd7510a6d517422da62f6e6eb
+	noextract = eslint-parser-7.22.11.tgz
+	source = https://registry.npmjs.org/@babel/eslint-parser/-/eslint-parser-7.22.11.tgz
+	sha256sums = f9aee7f4473b2cd4fc4abb2f97eee37e58bc64c0c4f794e0f9f4defd395b451f
 
 pkgname = babel-eslint-plugin
