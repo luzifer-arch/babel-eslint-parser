@@ -1,7 +1,7 @@
 # Maintainer: Knut Ahlers <knut at ahlers dot me>
 
 pkgname=babel-eslint-plugin
-pkgver=7.23.10
+pkgver=7.24.1
 pkgrel=1
 pkgdesc='@babel/eslint-parser allows you to lint ALL valid Babel code with the fantastic ESLint'
 arch=('any')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('eslint')
 makedepends=('npm')
 source=("https://registry.npmjs.org/@babel/eslint-parser/-/eslint-parser-${pkgver}.tgz")
-sha256sums=('473c3c7dd634918da1514c028c0b4b95e888f58fa2e5ab13b40d79eb33e9547b')
+sha256sums=('b36e742419b307ee2746c4c47bbd2af50a050844230159ec14e721e89dbf7508')
 noextract=("eslint-parser-${pkgver}.tgz")
 
 package() {
